@@ -1,0 +1,55 @@
+.Heading{
+	background-color: #ff6f66;
+	font-family: Verdana;
+	font-size: 150%;
+	position: relative;
+}
+
+.Navigation {
+	float: left;
+	padding-right: 20px;
+	padding-top: 10px;
+
+}
+
+.Body {
+	display: inline-block;
+}
+
+.About{
+	float: right;
+	border: 2pt solid black;
+	border-style: rigid;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+	background-color: #ff6f66;
+}
+
+img {
+	position: absolute;
+	float: right;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	background-color: #ff6f66;
+}
+
+li a {
+	display: block;
+	width: 150px;
+	color: #000;
+	padding: 8px 0 8px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+	}
